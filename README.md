@@ -3,15 +3,19 @@ Prototype of the satellite scheduler used for the Electron Losses and Fields Inv
 
 ## **Overview:**
 
-Module for creating / manipulating schedules for the satellites. 
+Module for creating / manipulating schedules for the satellites.
+
+**Open 'html / index.html' for browsable, in depth documentation.**
 
 ![Screenshot of Planning and Scheduling module](http://b-schoen.github.io/images/Planning_Scheduling_Screenshot_1.png)
 
 ## **Running:**
 
-Run _start.sh_. Edit this file to include any new UI / Python files that need to be compiled.
+Run _start.sh_. This will compile, run, and update existing documentation. Edit this file to include any new UI / Python files that need to be compiled.
 
 ## **Files by Type:**
+
+When _start.sh_ is run, user interface (.ui) files created by Qt Designer are compiled by pyuic into a format compatible with PyQt. The files fall into these three formats as follows:
 
 ### **User Interface Layouts (.ui)**
 

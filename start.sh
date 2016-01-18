@@ -9,5 +9,8 @@ pyuic4 Add_Activity_Dialog.ui > Add_Activity_Dialog.py
 
 pyuic4 Override_Dialog.ui > Override_Dialog.py
 
+#Run Doxygen to update existing auto-generated documentation
+doxygen .
+
 #run the main python file, starting QT application
 ipython runELFIN_Proto.py
