@@ -1,5 +1,6 @@
-#classes corresponding to the tables in DB_Manager
+##@file Holds all activity defintions
 
+## Generic activity for testing / as a template
 class Activity:
 
 	#TODO: Can remove save functionality

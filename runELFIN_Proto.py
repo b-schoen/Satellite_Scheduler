@@ -1,3 +1,6 @@
+##@mainpage Prototype of the satellite scheduler used for the Electron Losses and Fields Investigation (ELFIN) CubeSat
+
+##@file Responsible for handling all main UI forms and actions (main file).
 import sys
 import datetime
 
@@ -28,6 +31,7 @@ import names
 #TODO: Double clicks for modifying info on existing activities
 #TODO: Associating new_activity info with button (new class? only has to be info as will either delete or create new or update)
 
+## Main window for program
 class MyMainWindow(QtGui.QMainWindow, Ui_MainWindow):
 
     def __init__(self, parent=None):
@@ -112,7 +116,7 @@ class MyMainWindow(QtGui.QMainWindow, Ui_MainWindow):
 
         item.move(x_updated_position, item_relative_y)
 
-#help dialog to display when help button is pressed
+## Help dialog to display when help button is pressed
 class HelpDialog(QtGui.QDialog, Ui_Dialog):
 
     def __init__(self, parent=None):
@@ -147,7 +151,7 @@ class HelpDialog(QtGui.QDialog, Ui_Dialog):
 
         self.done(self.help_done_code)
 
-#activity dialog to display to edit/add activities
+## Activity dialog to display to edit/add activities
 class AddActivityDialog(QtGui.QDialog, Ui_Add_Activity_Dialog):
 
     def __init__(self, scheduler, parent=None):

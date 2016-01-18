@@ -1,3 +1,6 @@
+##@file Console Input Output
+# Module for handling everything to do with prompted user I/O (including override, output to console, etc.)
+
 from PyQt4 import QtGui, QtCore
 
 import datetime
@@ -12,6 +15,7 @@ from Override_Dialog import Ui_Override_Dialog
 
 #TODO: Override display to log to a text file (only append)
 
+## Outputs log of all events (database manipulation, constraint violations, added activities, etc) and user input.
 class ConsoleIO:
 
     def __init__(self, QtMainWindow):
@@ -167,7 +171,7 @@ class ConsoleIO:
 
     	time.sleep(0.1)
 
-#help dialog to display when help button is pressed
+## Requests and handles user input when a constraint violation can be overridden
 class Override_Dialog(QtGui.QDialog, Ui_Override_Dialog):
 
     def __init__(self, message, parent=None):

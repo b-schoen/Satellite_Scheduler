@@ -3,9 +3,9 @@ Prototype of the satellite scheduler used for the Electron Losses and Fields Inv
 
 ## **Overview:**
 
-Module for creating / manipulating schedules for the satellites.
+Module for creating / manipulating schedules for the satellites. Currently can create, store, edit, and constraint check a schedule. Logs all events, including user outputs, database manipulations, and user inputs in console window.
 
-**Open 'html / index.html' for browsable, in depth documentation.**
+**Open 'html / index.html' in a web browser for easily navigable in depth documentation.**
 
 ![Screenshot of Planning and Scheduling module](http://b-schoen.github.io/images/Planning_Scheduling_Screenshot_1.png)
 

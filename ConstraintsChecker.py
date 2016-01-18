@@ -1,3 +1,5 @@
+##@file Carries out constraint checking for activities and schedules
+
 import MySQLdb
 
 from ConsoleIO import ConsoleIO
@@ -11,6 +13,7 @@ import time
 
 # TODO: ConstraintsChecker as modules for each table then a master ConstraintsChecker
 
+##Handles constraint checking for activities and schedules
 class ConstraintsChecker:
 
     def __init__(self, QtMainWindow):

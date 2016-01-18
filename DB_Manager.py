@@ -1,3 +1,4 @@
+##Contains all classes and functions involved in manipulating the database
 import MySQLdb
 #from MySQLdb.cursors import SSCursor
 
@@ -8,8 +9,7 @@ from ConsoleIO import ConsoleIO
 import datetime
 import time
 
-# Responsible for adding and removing items from the database
-
+## Responsible for adding and removing items from the database
 class DatabaseManager:
 
     #TODO: Create log table that gets logged for every executeAndSave()

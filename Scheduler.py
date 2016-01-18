@@ -1,3 +1,5 @@
+##@file Contains all classes and functions necessary for manipulating schedules (top level calls, ex: addActivity)
+
 import MySQLdb
 #from MySQLdb.cursors import SSCursor
 
@@ -22,7 +24,7 @@ import time
 #           Make this a static method / class, that way there's only one connection manager active per program
 # NOTE: So open_close_everything works, but need a better solution (but good, it means problem actually is with connections not updating)
 
-
+## Handles top level of manipulating schedules (adding activities, etc)
 class Scheduler:
 
     # TODO: Make Activities, Events, etc. into classes
